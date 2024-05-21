@@ -271,13 +271,11 @@ main .main-input .cam-icon{
     /* background-color: #f2f2f2; */
     
     footer {
-        background-color: #f2f2f2;;
-        color: #3c4043 ;
-        /* padding: 2px 0; */
-        /* text-align: center; */
+        background-color: #f2f2f2;
+        color: #3c4043;
         font-size: 15px;
-    font-family: arial, sans-serif;
-   
+        font-family: Arial, sans-serif;
+        padding: 10px 0; /* Added padding for spacing */
     }
     
     .linea-separadora {
@@ -285,15 +283,12 @@ main .main-input .cam-icon{
         margin: 10px 0; /* Ajuste del margen vertical */
     }
     
-    /* .footer-section-left {
-        flex: 1;
-        text-align: left;
-    } */
-    
-    /* .footer-section-right {
-        flex: 1;
-        text-align: right;
-    } */
+    .seccion-abajo {
+        display: flex;
+        justify-content: space-between; /* Espacio entre las secciones */
+        align-items: center; /* Alinear elementos verticalmente al centro */
+        padding: 0 30px; /* Se agregó relleno para el espaciado izquierdo y derecho. */
+    }
     
     .footer-left,
     .footer-right {
@@ -301,14 +296,6 @@ main .main-input .cam-icon{
         padding: 0;
         margin: 0;
         display: flex;
-        justify-content: flex-start; /* Alinea los elementos a la izquierda */
-    }
-    
-    .footer-right {
-        justify-content: flex-end; /* Alinea los elementos a la derecha */
-        padding-right: 30px;
-        
-
     }
     
     .footer-left li,
@@ -318,9 +305,8 @@ main .main-input .cam-icon{
     
     .footer-left a,
     .footer-right a {
-        color: #3c4043 ;
+        color: #3c4043;
         text-decoration: none;
-        padding-left: 10px;
     }
     
     .footer-left a:hover,
@@ -331,12 +317,8 @@ main .main-input .cam-icon{
     .seccion-arriba {
         text-align: start; /* Alinea el texto hacia la derecha */
     }
+    
     .seccion-arriba p {
         padding-left: 30px; /* Agrega espacio entre el párrafo y el borde inferior */
     }
- 
-    .footer-right{
-        margin-bottom: 20px; /* Adjust the margin as needed */
-        justify-content: flex-end; /* Alinea los elementos a la derecha */
-        padding-right: 30px;
-    }
+    
